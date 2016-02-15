@@ -1,0 +1,18 @@
+Authors: Marco Cavalli, Stefano Crema
+
+SedInConnect 2.1 application and code are provided under GPL license version 2 (http://www.gnu.org/licenses/gpl-2.0.txt)
+The executable file has been created with PyInstaller (http://www.pyinstaller.org/)
+
+Output Index of Connectivity map is printed to screen and,if target option is selected, also the distribution of IC values along with the main statistics.
+
+File type selection has been implemented and the target rasterization process has been optimized to reflect the original feature to raster conversion.
+Some minor bugs remain while using targets but they are not influencing IC map.
+
+"guimages" and "gdal_rasterize" libraries are provided, for the other libraries please refer to the official website for the installation.
+For gdal_rasterize: source: http://gis.stackexchange.com/questions/16837/how-can-i-turn-a-shapefile-into-a-mask-and-calculate-the-mean
+
+The output files have no statistics computed, in order to better visualize them in a GIS environment
+we recommend to run a Build Pyramid-Calculate-statistics and use a classified view (ArcGis) or equivalent procedure for other GIS software. 
+
+The application has been tested with files up to 4 GB, depending on the available PC memory the user should consider the maximum size raster (less then half the max memory).
+For files greater than 4 GB the program needs to be modified in order to work with Big GeoTIFF.
