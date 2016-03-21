@@ -14,7 +14,16 @@ Guidelines, source code and ancillary files.
 
 Executables (created using Pyinstaller, https://github.com/pyinstaller/pyinstaller/wiki), are available under the "Release Tab" at the following link: https://github.com/HydrogeomorphologyTools/SedInConnect_2.3/releases
 
-# Linux
+
+# SedInConnect Windows dependencies
+
+To run SedInConnect you need to install TauDEM tools from: http://hydrology.usu.edu/taudem/taudem5/downloads2.html.
+
+The complete Windows installer is fine. The installation will check and, in case, install GDAL and HPC Pack. Check your computer settings, especially Firewall and/or antivirus SW not to block the MPI/smpd calls.
+
+
+# SedInConnect Linux dependencies
+
 Linux release has been tested in Ubuntu 14 (LTS).
 
 Dependencies are:
@@ -24,4 +33,4 @@ TauDEM functions.
 
 To compile TauDEM tools refer to:
 https://github.com/alexbruy/sextante-taudem/blob/master/README.TauDEM
-working on an older version of tauDEM (5.0.6)
+working on an older version of TauDEM (5.0.6)
