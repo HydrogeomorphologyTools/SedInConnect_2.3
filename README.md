@@ -13,3 +13,11 @@ Contents:
 Guidelines, source code and ancillary files.
 
 Executables (created using Pyinstaller, https://github.com/pyinstaller/pyinstaller/wiki), are available under the "Release Tab" at the following link: https://github.com/HydrogeomorphologyTools/SedInConnect_2.3/releases
+
+# Linux
+Linux release has been tested in Ubuntu 14 (LTS).
+Dependencies are:
+MPI (sudo apt-get install mpi), if the mpiexec command raises error one fix could be to install the dependencies (sudo apt-get install libgdk-pixbuf2.0-dev).
+TauDEM functions. To compile TauDEM tools refer to:
+https://github.com/alexbruy/sextante-taudem/blob/master/README.TauDEM
+working on an older version of tauDEM (5.0.6)
