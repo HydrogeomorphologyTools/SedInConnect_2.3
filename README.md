@@ -27,13 +27,11 @@ The complete Windows installer is fine. The installation will check and, in case
 
 # SedInConnect Linux dependencies
 
-Linux release has been tested in Ubuntu 14 (LTS).
+SedInConnect_2.3 Ubuntu16 (LTS) 64-bit testing release
+Tested on Ubuntu 16.04.6 xenial
 
-Dependencies are:
-MPI (sudo apt-get install mpi), if the mpiexec command raises error one fix could be to install the dependencies (sudo apt-get install libgdk-pixbuf2.0-dev).
+Dependencies: install TauDEM and mpi and ensure they work invoked by the command line (avoid calling taudem and mpiexec with sudo privilegies). Follow this link https://unix.stackexchange.com/questions/346775/how-to-solve-building-error-where-a-variable-was-not-declared-in-this-scope and/or run the following shell script https://sites.google.com/site/geoluislopes/taudem_ubuntu.tar.bz2?attredirects=0&d=1 to install both TauDEM and mpi
 
-TauDEM functions.
+Uncompress the herein provided archive into a unique folder, change execute permissions to all the files in the folder by typing "sudo chmod -R a+rwx /path/to/folder", then run "./SedInConnect_2_3_lx_64" without sudo privilegies.
 
-To compile TauDEM tools refer to:
-https://github.com/alexbruy/sextante-taudem/blob/master/README.TauDEM
-working on an older version of TauDEM (5.0.6)
+Have fun!
