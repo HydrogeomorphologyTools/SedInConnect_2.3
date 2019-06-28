@@ -32,6 +32,6 @@ Tested on Ubuntu 16.04.6 xenial
 
 Dependencies: install TauDEM and mpi and ensure they work invoked by the command line (avoid calling taudem and mpiexec with sudo privilegies). Follow this link https://unix.stackexchange.com/questions/346775/how-to-solve-building-error-where-a-variable-was-not-declared-in-this-scope and/or run the following shell script https://sites.google.com/site/geoluislopes/taudem_ubuntu.tar.bz2?attredirects=0&d=1 to install both TauDEM and mpi
 
-Uncompress the herein provided archive into a unique folder, change execute permissions to all the files in the folder by typing "sudo chmod -R a+rwx /path/to/folder", then run "./SedInConnect_2_3_lx_64" without sudo privilegies.
+Uncompress the release archive from https://github.com/HydrogeomorphologyTools/SedInConnect_2.3/releases/tag/SedInConnect_2.3_Ubuntu into a unique folder, change execute permissions to all the files in the folder by typing "sudo chmod -R a+rwx /path/to/folder", then run "./SedInConnect_2_3_lx_64" without sudo privilegies.
 
 Have fun!
