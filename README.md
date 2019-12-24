@@ -7,7 +7,7 @@ Open source program for the assessment of sediment connectivity as expressed in:
 
  - Cavalli, M., Trevisani, S., Comiti, F., Marchi, L., 2013. Geomorphometric assessment of spatial sediment connectivity in small Alpine catchments. Geomorphology, Sediment sources, source-to-sink fluxes and sedimentary budgets 188, 31–41. doi:10.1016/j.geomorph.2012.05.007
 	http://www.sciencedirect.com/science/article/pii/S0169555X12002267
-   
+
  - Crema, S., Schenato, L., Goldin, B., Marchi, L., Cavalli, M., 2015. Toward the development of a stand-alone application for the assessment of sediment connectivity. Rendiconti Online Della Soc. Geol. Ital. 34, 58–61. doi:10.3301/ROL.2015.37
 	http://rendiconti.socgeol.it/244/fulltext.html?ida=1845
 
@@ -30,7 +30,7 @@ The complete Windows installer is fine. The installation will check and, in case
 SedInConnect_2.3 Ubuntu16 (LTS) 64-bit testing release
 Tested on Ubuntu 16.04.6 xenial
 
-Dependencies: install TauDEM and mpi and ensure they work invoked by the command line (avoid calling taudem and mpiexec with sudo privilegies). Follow this link https://unix.stackexchange.com/questions/346775/how-to-solve-building-error-where-a-variable-was-not-declared-in-this-scope and/or run the following shell script https://sites.google.com/site/geoluislopes/taudem_ubuntu.tar.bz2?attredirects=0&d=1 to install both TauDEM and mpi
+Dependencies: install TauDEM and mpi and ensure they work invoked by the command line (avoid calling taudem and mpiexec with sudo privilegies). Follow this link https://unix.stackexchange.com/questions/346775/how-to-solve-building-error-where-a-variable-was-not-declared-in-this-scope and/or run the following shell script https://sites.google.com/site/geoluislopes/taudem_ubuntu.tar.bz2?attredirects=0&d=1 to install both TauDEM and mpi.
 
 Uncompress the release archive from https://github.com/HydrogeomorphologyTools/SedInConnect_2.3/releases/tag/SedInConnect_2.3_Ubuntu into a unique folder, change execute permissions to all the files in the folder by typing "sudo chmod -R a+rwx /path/to/folder", then run "./SedInConnect_2_3_lx_64" without sudo privilegies.
 
