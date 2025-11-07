@@ -20,7 +20,7 @@ Executables (created using Pyinstaller, https://github.com/pyinstaller/pyinstall
 
 # SedInConnect Windows dependencies
 
-To run SedInConnect you need to install TauDEM tools from: http://hydrology.usu.edu/taudem/taudem5/downloads2.html.
+To run SedInConnect you need to install TauDEM tools from: [http://hydrology.usu.edu/taudem/taudem5/downloads.html](https://hydrology.usu.edu/taudem/taudem5/downloads.html).
 
 The complete Windows installer is fine. The installation will check and, in case, install GDAL and HPC Pack. Check your computer settings, especially Firewall and/or antivirus SW not to block the MPI/smpd calls.
 
